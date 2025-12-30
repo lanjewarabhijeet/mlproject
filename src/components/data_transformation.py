@@ -25,10 +25,11 @@ class DataTransformation:
     def get_data_transformer_object(self):
         '''
         This function is responsible for data trnasformation
-        
         '''
         try:
-            numerical_columns = ["writing_score", "reading_score"]
+            numerical_columns = [
+                "writing_score", 
+                "reading_score"]
             categorical_columns = [
                 "gender",
                 "race_ethnicity",
